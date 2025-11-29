@@ -1,0 +1,140 @@
+.product-reviews {
+    margin-top: 4rem;
+}
+
+.product-reviews__title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.product-reviews__summary {
+    margin-bottom: 2rem;
+}
+
+.product-reviews__rating-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-reviews__rating-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-warning);
+}
+
+.product-reviews__count {
+    color: var(--color-text-secondary);
+    font-size: 1.125rem;
+}
+
+.product-reviews__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.product-reviews__empty {
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+.review-card {
+    padding: 1.5rem;
+}
+
+.review-card__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review-card__rating {
+    background: var(--color-success);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.review-card__title {
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+.review-card__comment {
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.review-card__images {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.review-card__images img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+}
+
+.review-card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+}
+
+.review-card__user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.review-card__avatar {
+    width: 24px;
+    height: 24px;
+    background: var(--color-bg-tertiary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-tertiary);
+}
+
+.review-card__verified {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: var(--color-text-tertiary);
+    font-size: 0.75rem;
+}
+
+.review-card__helpful {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text-tertiary);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: color var(--transition-fast);
+}
+
+.review-card__helpful:hover {
+    color: var(--color-primary);
+}
